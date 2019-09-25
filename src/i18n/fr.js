@@ -139,5 +139,5 @@ export default {
   mfaCodeErrorHint: 'Utilisez des numéros %d',
   showPassword: 'Montrer le mot de passe',
   signUpTerms:
-    "En t'inscrivant, tu acceptez mes conditions d'utilisation et ma politique de confidentialité."
+    "En t'inscrivant, tu acceptes mes conditions d'utilisation et ma politique de confidentialité."
 };
