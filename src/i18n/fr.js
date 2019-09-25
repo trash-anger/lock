@@ -5,49 +5,49 @@ export default {
   error: {
     forgotPassword: {
       too_many_requests:
-        'Vous avez atteint la limite de tentatives de changement de mot de passe. Veuillez patienter avant de recommencer.',
+        'Tu as atteint la limite de tentatives de changement de mot de passe. Patiente avant de recommencer.',
       'lock.fallback':
-        'Nous sommes désolés, un problème est survenu lors de la demande de changement de mot de passe.',
+        'Désolés, un problème est survenu lors de la demande de changement de mot de passe.',
       enterprise_email:
-        "Le domaine de votre messagerie fait partie d'un fournisseur d'identité d'entreprise. Pour réinitialiser votre mot de passe, veuillez contacter votre administrateur de sécurité."
+        "Le domaine de ta messagerie fait partie d'un fournisseur d'identité d'entreprise. Pour réinitialiser votre mot de passe, contacte ton administrateur de sécurité."
     },
     login: {
       blocked_user: 'L’utilisateur est bloqué.',
       invalid_user_password: 'Mauvais identifiants.',
       'lock.fallback':
-        'Nous sommes désolés, un problème est survenu lors de la tentative de connexion.',
+        'Désolés, un problème est survenu lors de la tentative de connexion.',
       'lock.invalid_code': 'Mauvais code.',
       'lock.invalid_email_password': 'Mauvaise adresse de messagerie ou mot de passe.',
       'lock.invalid_username_password': 'Mauvais nom d’utilisateur ou mot de passe.',
       'lock.network':
-        'Nous ne pouvons pas joindre le serveur. Vérifiez votre connexion et réessayez.',
-      'lock.popup_closed': 'La fenêtre popup a été fermée. Veuillez réessayer.',
-      'lock.unauthorized': 'Les permissions n’ont pas été accordées. Veuillez réessayer.',
+        'Serveur injoignable. Vérifie ta connexion et réessaye.',
+      'lock.popup_closed': 'La fenêtre popup a été fermée. Réessaye.',
+      'lock.unauthorized': 'Les permissions n’ont pas été accordées. Réessaye.',
       password_change_required:
-        'Vous devez mettre à jour votre mot de passe, soit parce qu’il s’agit de votre première connexion, soit parce que ce dernier a expiré.',
+        'Tu dois mettre à jour ton mot de passe, soit parce qu’il s’agit de ta première connexion, soit parce que ce dernier a expiré.',
       password_leaked:
-        'Cette connexion a été bloquée parce que votre mot de passe a été utilisé sur un autre site web. Nous vous avons envoyé un courriel avec des instructions pour la débloquer.',
+        'Cette connexion a été bloquée parce que ton mot de passe a été utilisé sur un autre site web. Je t\'ai envoyé un courriel avec des instructions pour la débloquer.',
       too_many_attempts:
-        'Votre compte a été bloqué à la suite de trop nombreuses tentatives de connexion consécutives.',
+        'Ton compte a été bloqué à la suite de trop nombreuses tentatives de connexion consécutives.',
       'lock.mfa_registration_required':
-        "l'authentification multifactorielle est nécessaire, mais votre appareil n'est pas inscrit. Veuillez vous inscrire avant de passer.",
-      'lock.mfa_invalid_code': 'Mauvais code. Veuillez réessayer.',
+        "l'authentification multifactorielle est nécessaire, mais ton appareil n'est pas inscrit. Inscris toi avant de passer.",
+      'lock.mfa_invalid_code': 'Mauvais code. Réessaye.',
       session_missing:
-        "Impossible de terminer votre demande d'authentification. Veuillez essayer de nouveau après la fermeture de tous les dialogues ouverts",
+        "Impossible de terminer ta demande d'authentification. Essaye de nouveau après la fermeture de tous les dialogues ouverts",
       'hrd.not_matching_email':
-        "Veuillez utiliser votre messagerie d'entreprise pour vous connecter.",
+        "Utilise ta messagerie d'entreprise pour te connecter.",
       too_many_requests:
-        'Nous sommes désolés. Il y a trop de demandes en ce moment. Veuillez recharger la page et réessayer. Si cela persiste, veuillez réessayer ultérieurement.'
+        'Désolés. Il y a trop de demandes en ce moment. Recharge la page et réessaye. Si cela persiste, réessaye ultérieurement.'
     },
     passwordless: {
       'bad.email': 'L’adresse de messagerie n’est pas valide',
       'bad.phone_number': 'Le numéro de téléphone n’est pas valide',
-      'lock.fallback': 'Nous sommes désolés, un problème est survenu'
+      'lock.fallback': 'Désolés, un problème est survenu'
     },
     signUp: {
       invalid_password: 'Le mot de passe n’est pas valide.',
       'lock.fallback':
-        'Nous sommes désolés, un problème est survenu lors de la tentative d’inscription.',
+        'Désolés, un problème est survenu lors de la tentative d’inscription.',
       password_dictionary_error: 'Le mot de passe est trop commun.',
       password_no_user_info_error: 'Le mot de passe est basé sur des informations utilisateur.',
       password_strength_error: 'La force du mot de passe est trop faible.',
@@ -56,26 +56,26 @@ export default {
     }
   },
   success: {
-    logIn: 'Merci de vous être connecté.',
+    logIn: 'Merci de t\'être connecté.',
     forgotPassword:
-      'Nous venons de vous envoyer un courriel pour réinitialiser votre mot de passe.',
-    magicLink: 'Nous vous avons envoyé un lien pour vous connecter<br />à %s.',
-    signUp: 'Merci de vous être inscrit.'
+      'Je viens de t\'envoyer un courriel pour réinitialiser ton mot de passe.',
+    magicLink: 'Je t\'ai envoyé un lien pour te connecter<br />à %s.',
+    signUp: 'Merci de t\'être inscrit.'
   },
   blankErrorHint: 'Ne peut être vide',
-  codeInputPlaceholder: 'votre code',
+  codeInputPlaceholder: 'ton code',
   databaseEnterpriseLoginInstructions: '',
   databaseEnterpriseAlternativeLoginInstructions: 'ou',
   databaseSignUpInstructions: '',
   databaseAlternativeSignUpInstructions: 'ou',
-  emailInputPlaceholder: 'votreadresse@exemple.com',
-  enterpriseLoginIntructions: 'Connectez-vous avec vos identifiants d’entreprise.',
+  emailInputPlaceholder: 'tonadresse@inasup.com',
+  enterpriseLoginIntructions: 'Connecte-toi avec tes identifiants d’entreprise.',
   enterpriseActiveLoginInstructions:
-    'Veuillez entrer les identifiants de connexion de votre entreprise %s.',
+    'Entre les identifiants de connexion de ton entreprise %s.',
   failedLabel: 'A échoué !',
   forgotPasswordAction: 'Mot de passe oublié ?',
   forgotPasswordInstructions:
-    'Veuillez entrer votre adresse de messagerie. Nous vous enverrons un courriel pour réinitialiser votre mot de passe.',
+    'Entre ton adresse de messagerie. Je t\'enverrai un courriel pour réinitialiser ton mot de passe.',
   forgotPasswordSubmitLabel: 'Envoyer le courriel',
   invalidErrorHint: 'Invalide',
   lastLoginInstructions: 'Dernière connexion avec',
@@ -83,8 +83,8 @@ export default {
   loginLabel: 'Connexion',
   loginSubmitLabel: 'Connexion',
   loginWithLabel: 'Se connecter avec %s',
-  notYourAccountAction: 'Ceci n’est pas votre compte ?',
-  passwordInputPlaceholder: 'Votre mot de passe',
+  notYourAccountAction: 'Ceci n’est pas ton compte ?',
+  passwordInputPlaceholder: 'Ton mot de passe',
   passwordStrength: {
     containsAtLeast: 'Doit contenir au moins %d des %d types de caractères :',
     identicalChars:
@@ -98,20 +98,20 @@ export default {
     upperCase: 'Lettres majuscules (A-Z)'
   },
   passwordlessEmailAlternativeInstructions:
-    'Sinon entrez votre adresse de messagerie pour vous connecter<br/>ou créez un compte',
+    'Sinon entre ton adresse de messagerie pour te connecter ou créez un compte',
   passwordlessEmailCodeInstructions: 'Un courriel avec le code a été envoyé à %s.',
   passwordlessEmailInstructions:
-    'Entrez votre adresse de messagerie pour vous connecter<br/>ou créez un compte',
+    'Entre ton adresse de messagerie pour te connecter ou créez un compte',
   passwordlessSMSAlternativeInstructions:
-    'Sinon saisissez votre numéro de téléphone pour vous connecter<br/>ou créez un compte',
-  passwordlessSMSCodeInstructions: 'Un SMS avec le code a été envoyé<br/>à %s.',
+    'Sinon saisisse ton numéro de téléphone pour te connecter ou créez un compte',
+  passwordlessSMSCodeInstructions: 'Un SMS avec le code a été envoyé à %s.',
   passwordlessSMSInstructions:
-    'Saisissez votre numéro de téléphone pour vous connecter<br/>ou créez un compte',
-  phoneNumberInputPlaceholder: 'votre numéro de téléphone',
-  resendCodeAction: 'Vous n’avez pas reçu le code ?',
+    'Saisisse ton numéro de téléphone pour te connecter ou créez un compte',
+  phoneNumberInputPlaceholder: 'ton numéro de téléphone',
+  resendCodeAction: 'Tu n’as pas reçu le code ?',
   resendLabel: 'Envoyer une nouvelle fois',
   resendingLabel: 'Nouvel envoi en cours…',
-  retryLabel: 'Réessayer',
+  retryLabel: 'Réessaye',
   sentLabel: 'Envoyé !',
   signUpLabel: 'Inscription',
   signUpSubmitLabel: 'Inscription',
@@ -120,24 +120,24 @@ export default {
   socialSignUpInstructions: '',
   ssoEnabled: 'Authentification unique activée',
   submitLabel: 'Envoyer',
-  unrecoverableError: 'Un problème est survenu.<br />Veuillez contacter l’assistance technique.',
+  unrecoverableError: 'Un problème est survenu.<br />Contacte l’assistance technique.',
   usernameFormatErrorHint:
     'Utilisez %d-%d lettres, chiffres et les caractères suivants: "_", ".", "+", "-"',
-  usernameInputPlaceholder: 'votre nom d’utilisateur',
+  usernameInputPlaceholder: 'ton nom d’utilisateur',
   usernameOrEmailInputPlaceholder: 'nom d’utilisateur/adresse de messagerie',
-  title: 'Auth0',
+  title: 'Insan',
   welcome: 'Bienvenue %s !',
-  windowsAuthInstructions: 'Vous êtes connecté depuis votre réseau d’entreprise...',
+  windowsAuthInstructions: 'Tu es connecté depuis ton réseau d’entreprise...',
   windowsAuthLabel: 'Authentification Windows',
-  forgotPasswordTitle: 'réinitialisez votre mot de passe',
+  forgotPasswordTitle: 'réinitialise ton mot de passe',
   signUpTitle: "S'inscrire",
   mfaInputPlaceholder: 'Code',
   mfaLoginTitle: '2-Step Vérification',
   mfaLoginInstructions:
-    'Veuillez entrer le code de vérification généré par votre application mobile.',
+    'Entre le code de vérification généré par ton application mobile.',
   mfaSubmitLabel: "S'identifier",
   mfaCodeErrorHint: 'Utilisez des numéros %d',
   showPassword: 'Montrer le mot de passe',
   signUpTerms:
-    "En vous inscrivant, vous acceptez nos conditions d'utilisation et notre politique de confidentialité."
+    "En t'inscrivant, tu acceptez mes conditions d'utilisation et ma politique de confidentialité."
 };
